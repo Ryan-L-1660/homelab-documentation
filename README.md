@@ -1,9 +1,9 @@
 # Homelab Documenation Summary
 
 ## Network Architechture Framework
-Internet 
-  ↓ 
-Allied Telesis x230-28GT
+Internet    
+  ↓     
+Allied Telesis x230-28GT  
 ``` port1.0.1 - Uplink
 	port1.0.2 - Link to Main PC
 	port1.0.3 - Link to TrueNAS SCALE
