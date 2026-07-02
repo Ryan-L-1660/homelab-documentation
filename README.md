@@ -9,17 +9,15 @@ This is my documentation for my homelab self hosting multiple different services
 - Brocade 6910
 
 ### Computers
-#### Debian 1, 2, and TrueNAS Scale
-- HP Elite Desk 800 G2
-#### Debian 3
-- HP Elite Desk 600 G2
-
-
+- Deb1: HP Elite Desk 800
+- Deb2: HP Elite Desk 800
+- Deb3: HP Elite Desk 600
+- NAS: HP Elite Desk 800
 
 ## Network Architechture Framework
-Internet
-  ↓     
-Allied Telesis x230-28GT 
+Internet   
+  ↓        
+Allied Telesis x230-28GT    
 ``` port1.0.1 - Uplink 
 	port1.0.2 - Link to Main PC
 	port1.0.3 - Link to TrueNAS SCALE 
