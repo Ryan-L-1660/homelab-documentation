@@ -9,10 +9,10 @@ This is my documentation for my homelab self hosting multiple different services
 - Brocade 6910
 
 ### Computers
-- Debain1 - HP Elite Desk 800 G2
-- Debian2 - HP Elite Desk 800 G2
-- Debian3 - HP Elite Desk 600 G2
-- TrueNAS Scale - HP Elite Desk 800 G2
+#### Debian 1, 2, and TrueNAS Scale
+- HP Elite Desk 800 G2
+#### Debian 3
+- HP Elite Desk 600 G2
 
 
 
