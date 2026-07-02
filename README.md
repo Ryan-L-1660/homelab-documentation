@@ -1,7 +1,7 @@
 # Homelab Documenation Summary
 
 ## Network Architechture Framework
-Internet    
+Internet (950D | 525U)
   ↓     
 Allied Telesis x230-28GT  
 ``` port1.0.1 - Uplink
