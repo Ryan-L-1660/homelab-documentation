@@ -1,1 +1,3 @@
-# homelab-documentation
+# Homelab Documenation Summary
+---
+## Network Architechture
