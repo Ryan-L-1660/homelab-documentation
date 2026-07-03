@@ -5,7 +5,7 @@ Router DHCPv4 Range: 192.168.20.1-200/24
 ```mermaid
 flowchart LR
     %% Uplink / Core
-    Router["🌐 Router<br/>IP: 192.168.20.1"] -->|"Port 1.0.22"| ATSwitch["🔌 Allied Telesis <br/>x230-28GT<br/>IP: 192.168.20.205"]
+    Router["🌐 Router<br/>IP: 192.168.20.1"] -->|"Port 1.0.22"| ATSwitch["🔌 Allied Telesis x230-28GT IP: 192.168.20.205"]
 
     %% Endpoints & Infrastructure
     ATSwitch -->|"Port 1.0.1"| RoomLink["🏠 Link to Other Room<br/>(DHCP)"]
