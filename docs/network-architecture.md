@@ -1,5 +1,5 @@
 # Network Architechture
-
+```mermaid
 graph TD
     Internet((Internet)) --> OPNsense[OPNsense Router-on-a-Stick]
     OPNsense --> Switch[Managed Switch]
