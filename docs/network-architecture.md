@@ -4,8 +4,6 @@
 
 ```mermaid
 flowchart LR
-    %% Title block or metadata could be handled via Markdown text above the diagram
-
     %% Uplink / Core
     Router["🌐 Router<br/>IP: 192.168.20.1"] -->|"Port 1.0.22"| ATSwitch["🔌 Allied Telesis Switch<br/>x230-28GT<br/>IP: 192.168.20.205"]
 
@@ -23,11 +21,14 @@ flowchart LR
     %% Bridge / Downlink Switches
     ATSwitch -->|"Port 1.0.24"| Brocade["🔌 Brocade 6910<br/>(Port 8)<br/>Mgmt IP: 192.168.20.X"]
 
-    ATSwitch ~~~ Spacer["<br/><br/>"]
-    style Spacer fill:none,stroke:none,color:#00000000
-    
+    %% Invisible routing to place the Key row neatly at the bottom
+    Brocade ~~~ K1
 
-    %% Styling for GitHub Dark/Light Mode Compatibility
+    %% Diagram Key / Legend (Horizontal Row)
+    K1["🔍 KEY: Uplink / Infra"]:::uplink ~~~ K2["🔌 Network Switch"]:::switch ~~~ K3["💾 Server / Service"]:::server ~~~ K4["🖥️ Client / Test Bench"]:::client ~~~ Spacer["<br/><br/>"]
+
+    %% Styling Elements
+    style Spacer fill:none,stroke:none,color:#00000000
     classDef switch fill:#2d3748,stroke:#718096,stroke-width:2px,color:#ffffff;
     classDef server fill:#1a365d,stroke:#2b6cb0,stroke-width:1px,color:#ffffff;
     classDef client fill:#22543d,stroke:#2f855a,stroke-width:1px,color:#ffffff;
