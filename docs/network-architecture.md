@@ -24,6 +24,7 @@ flowchart LR
     ATSwitch -->|"Port 1.0.24"| Brocade["🔌 Brocade 6910<br/>(Port 8)<br/>Mgmt IP: 192.168.20.X"]
 
     ATSwitch ~~~ Spacer["<br/><br/>"]
+    style Spacer fill:none,stroke:none,color:#00000000
     
 
     %% Styling for GitHub Dark/Light Mode Compatibility
