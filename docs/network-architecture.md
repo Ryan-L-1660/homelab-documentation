@@ -23,6 +23,9 @@ flowchart LR
     %% Bridge / Downlink Switches
     ATSwitch -->|"Port 1.0.24"| Brocade["🔌 Brocade 6910<br/>(Port 8)<br/>Mgmt IP: 192.168.20.X"]
 
+    ATSwitch ~~~ Spacer["<br/><br/>"]
+    style Space fill:none,stroke:none,color:#00000000
+
     %% Styling for GitHub Dark/Light Mode Compatibility
     classDef switch fill:#2d3748,stroke:#718096,stroke-width:2px,color:#ffffff;
     classDef server fill:#1a365d,stroke:#2b6cb0,stroke-width:1px,color:#ffffff;
