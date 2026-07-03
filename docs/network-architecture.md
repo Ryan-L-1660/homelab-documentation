@@ -1,16 +1,16 @@
 # Network Architechture
-Network Subnet: 192.168.20.0/24
-Router DHCPv4 Range: 192.168.20.1-200/24
+Network Subnet: 192.168.20.0/24  
+Router DHCPv4 Range: 192.168.20.1-200/24  
 
 ```mermaid
 flowchart LR
     %% Uplink / Core
-    Router["🌐 Router<br/>IP: 192.168.20.1"] -->|"Port 1.0.22"| ATSwitch["🔌 Allied Telesis Switch<br/>x230-28gt<br/>Mgmt IP: 192.168.20.205"]
+    Router["🌐 Router<br/>IP: 192.168.20.1"] -->|"Port 1.0.22"| ATSwitch["🔌 Allied Telesis <br/>x230-28GT<br/>IP: 192.168.20.205"]
 
     %% Endpoints & Infrastructure
-    ATSwitch -->|"Port 1.0.1"| RoomLink["🏠 Link to Other Room<br/>(DHCP Drop)"]
+    ATSwitch -->|"Port 1.0.1"| RoomLink["🏠 Link to Other Room<br/>(DHCP)"]
     ATSwitch -->|"Port 1.0.3"| MainPC["🖥️ Main-PC<br/>(Windows/Gaming)<br/>IP: 192.168.20.254"]
-    ATSwitch -->|"Port 1.0.5"| TestDesk["🔧 Desk Test Bench<br/>(Dynamic / DHCP)"]
+    ATSwitch -->|"Port 1.0.5"| TestDesk["🔧 Desk Test Bench<br/>(Static or DHCP)"]
     
     %% Servers & Services
     ATSwitch -->|"Port 1.0.7"| DebGUI["🐧 Debian 13 GUI Server<br/>IP: 192.168.20.213"]
