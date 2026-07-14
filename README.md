@@ -9,8 +9,8 @@ This is my documentation for my homelab, self hosting multiple services.
 - Brocade 6910
 
 ### Computers
-- Debian 1 (Pi-hole): HP Elite Desk 800
-- Debian 2 (Technitium): HP Elite Desk 800
+- Debian 1 (Technitium): HP Elite Desk 800
+- Debian 2 (Pi-hole): HP Prodesk 
 - Debian 3 (Test GUI Server): HP Elite Desk 600
 - NAS: HP Elite Desk 800
 
