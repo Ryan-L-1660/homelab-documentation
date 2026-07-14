@@ -1,7 +1,7 @@
 # Homelab Documenation Summary
 
 ## Overview
-This is my documentation for my homelab self hosting multiple different services.
+This is my documentation for my homelab, self hosting multiple services.
 
 ## Basic Lab Hardware Overview
 ### Networking
@@ -9,9 +9,9 @@ This is my documentation for my homelab self hosting multiple different services
 - Brocade 6910
 
 ### Computers
-- Deb1: HP Elite Desk 800
-- Deb2: HP Elite Desk 800
-- Deb3: HP Elite Desk 600
+- Debian 1 (Pi-hole): HP Elite Desk 800
+- Debian 2 (Technitium): HP Elite Desk 800
+- Debian 3 (Test GUI Server): HP Elite Desk 600
 - NAS: HP Elite Desk 800
 
 ## Network Architechture Framework
