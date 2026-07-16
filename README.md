@@ -5,14 +5,14 @@ This is my documentation for my homelab, self hosting multiple services.
 
 ## Basic Lab Hardware Overview
 ### Networking
-- Allied Telesis x230-28GT
+- [Allied Telesis x230-28GT](docs/allied_telesis_x230/allied_telesis_x230_overview.md)
 - Brocade 6910
 
 ### Computers
-- Debian 1 (Technitium): HP Elite Desk 800
-- Debian 2 (Pi-hole): HP Prodesk 
-- Debian 3 (Test GUI Server): HP Elite Desk 600
-- NAS: HP Elite Desk 800
+- [Debian 1 (Technitium): HP Elite Desk 800](docs/debian_1_technitium/debian_1_overview.md)
+- [Debian 2 (Pi-hole): HP Prodesk](docs/debian_2_pihole/debian_2_pihole_overview.md)
+- [Debian 3 (Test GUI Server): HP Elite Desk 600](docs/debian_3_gui_test/debian_3_gui_test_overview.md)
+- [NAS: HP Elite Desk 800](docs/truenas_scale/truenas_scale_overview.md)
 
 ## Network Architechture Framework
 Internet   
