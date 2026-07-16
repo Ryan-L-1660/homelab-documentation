@@ -25,3 +25,4 @@ Allied Telesis x230-28GT
 	port1.0.5 - Link to Debian Server 2 (Pi-hole)
 	port1.0.6 - Link to Debian Server 3 (Testing/Experiments)
 ```
+[More in-depth network architechture](/docs/network_architechture.md)
