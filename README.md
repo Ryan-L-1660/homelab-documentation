@@ -17,7 +17,7 @@ This is my documentation for my homelab, self hosting multiple services.
 ## Network Architechture Framework
 Internet   
   ↓        
-Allied Telesis x230-28GT    
+[Allied Telesis x230-28GT](docs/allied_telesis_x230/allied_telesis_x230_overview.md)    
 ``` port1.0.1 - Uplink 
 	port1.0.2 - Link to Main PC
 	port1.0.3 - Link to TrueNAS SCALE 
