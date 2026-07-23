@@ -1,6 +1,7 @@
 # Debian 1
 
 ## fastfetch
+```
         _,met$$$$$gg.          ryan@ryan-server
      ,g$$$$$$$$$$$$$$$P.       ----------------
    ,g$$P""       """Y$$.".     OS: Debian GNU/Linux 13 (trixie) x86_64
@@ -17,7 +18,7 @@
      `$$b.                     Disk (/): 62.54 GiB / 109.81 GiB (57%) - ext4
        `Y$$b.                  Disk (/mnt/scratch): 5.98 GiB / 292.35 GiB (2%) - ext4
          `"Y$b._               Local IP (eno1): 192.168.20.212/24
-             `""""             Locale: en_US.UTF-8
+             `""""             Locale: en_US.UTF-8```
 
 ## BIOS/UEFI Information
 Release Date: 12/15/2022
